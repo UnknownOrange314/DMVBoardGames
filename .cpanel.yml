@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/gulugame/public_html/dmvboardgames
+    - /bin/cp -R . $DEPLOYPATH
